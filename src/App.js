@@ -9,7 +9,7 @@ import Register from './page/Login/Register/Register';
 import Footer from './page/Shared/Footer/Footer';
 import Header from './page/Shared/Header/Header';
 import NotFound from './page/Shared/NotFound/NotFound';
-import Checkout from './page/Checkout/Checkout/Checkout';
+
 import RequireAuth from './page/Login/RequireAuth/RequireAuth';
 import AddItem from './page/AddItem/AddItem';
 import ManageItems from './page/ManageItems/ManageItems';
@@ -31,11 +31,8 @@ function App() {
         <Route path='/Blog' element={<Blog></Blog>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>
         <Route path='/Register'element={<Register></Register>}></Route>
-        <Route path='/Checkout' element={
-          <RequireAuth>
-            <Checkout></Checkout>
-          </RequireAuth>
-        }></Route>
+        
+         
         <Route path='/AddItem' element={
           <RequireAuth>
             <AddItem></AddItem>

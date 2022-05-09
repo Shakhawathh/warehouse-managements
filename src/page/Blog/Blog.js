@@ -13,7 +13,7 @@ const Blog = () => {
         <h3> What is the purpose of jwt and how does it work</h3>
         <p>A JWT is a mechanism to verify the owner of some JSON data. It’s an encoded, URL-safe string that can contain an unlimited amount of data (unlike a cookie) and is cryptographically signed.
 
-When a server receives a JWT, it can guarantee the data it contains can be trusted because it’s signed by the source. No middleman can modify a JWT once it’s sent.</p>
+When a server receives  JWT, it can guarantee the data it contains can be trusted because it’s signed by the source. No middleman can modify a JWT once it’s sent.</p>
         </div>
     );
 };
